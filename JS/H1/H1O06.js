@@ -30,4 +30,6 @@ function draw() {
   rect(0,0,100,100);
   translate(140,0);
   rect(0,0,100,100);  
+
+  
 }

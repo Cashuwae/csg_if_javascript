@@ -4,11 +4,14 @@ function setup() {
   canvas.parent('processing');
   //noLoop();
 }
+for (var n = 0;n <= 5;n++) {
+    rect ();
+    rect (n);
+}
 
 function draw() {
   noStroke();
-  fill('steelblue');
-  ellipse(0,0,800);
-  fill('deepskyblue');
-  ellipse(450,450,400);
+  square (0,220,100,100);
+  fill ('red')
+
 }

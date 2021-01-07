@@ -1,5 +1,5 @@
 function setup() {
-  canvas = createCanvas(1000,300);
+  canvas = createCanvas(1200,300);
   canvas.parent('processing');
   noStroke();
   noLoop();
@@ -8,10 +8,10 @@ function setup() {
 function draw() {
   background('orange');
   fill('wheat');
-  rect(0,250,width,height - 250);
-  translate(125,0);
+  rect(0,400,width,height - 400);
+  //translate(125,0);
 
-  for (var n = 1;n <= 4;n++) {
+  for (var n = 0;n <= 6;n++) {
     tekenHuis();
     tekenBoom(n);
     translate(200,0);
